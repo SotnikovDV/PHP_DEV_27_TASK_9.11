@@ -1,2 +1,19 @@
 # PHP_DEV_27_TASK_9.11
-SkillFactory Group PHP_DEV_27 Task 9.11 - Persons generation
+***SkillFactory Group PHP_DEV_27 Task 9.11 - Persons generation***
+
+## 1. Project description 
+
+Random user data generator: full name, gender, date of birth and profession. With the ability to drop information. The selection of data comes from prepared JSON values using Math.random.
+Developed as a practical task in the course "PHP Developer"
+
+## 2. Use
+
+Load all files and put it in server root
+
+## 2. Preview
+
+In [GitPages](https://sotnikovdv.github.io/PHP_DEV_27_TASK_9.11/index.html)
+
+***
+
+**2022@DVSt** [PHP_DEV_27_TASK_9.11](https://github.com/SotnikovDV/PHP_DEV_27_TASK_9.11.git)
