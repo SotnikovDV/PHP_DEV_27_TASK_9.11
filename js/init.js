@@ -8,7 +8,7 @@ function initPerson(){
     const onePerson = personGenerator.getPerson();
     const personGenderVar = onePerson.gender;
 
-    personGender.innerText = personGenderVar;
+    personGender.innerText = personGenderVar; 
     yearOfBirthDay.innerText = onePerson.yearOfBirthDay;
     
     firstName.innerText = onePerson.firstName + ' ' + onePerson.midleName;
