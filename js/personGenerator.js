@@ -240,7 +240,8 @@ const personGenerator = {
     },
 
     // дата рождения
-    randomBirthDay: function () { 
+    randomBirthDay: function () {
+        let dateNow = new Date();
 
         // генерируем случайную дату с 01.01.1930 по сегодня
         // кол-во дней в месяце не корректируем. JS делает это самостоятельно !!!
@@ -257,7 +258,7 @@ const personGenerator = {
 
     // краткое жизнеописание
     randomnHistory: function () {
-        let dateNow = new Date(); 
+        let dateNow = new Date();
         let ds = this.person.firstName + ' родил';
         // родилось        
         if (this.person.gender === this.GENDER_FEMALE) {
