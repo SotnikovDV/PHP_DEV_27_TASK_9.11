@@ -253,7 +253,9 @@ const personGenerator = {
     // наименование месяца по номеру
     monthToName: function (month) {
         const monthNameArray = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
-        return monthNameArray[month - 1];
+        //console.log(this.person.birthDay);
+        //console.log(month + ' ' + monthNameArray[month - 1])
+        return monthNameArray[month];   // getMonth() возвращает номер месяца начиная с 0 !!!
     },
 
     // краткое жизнеописание
