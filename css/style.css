@@ -5,7 +5,7 @@
 
 .foto-box {
     display: flex;
-    align-items: center
+    align-items: center;
 }
 .foto {
     width: 100%;

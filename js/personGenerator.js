@@ -257,7 +257,7 @@ const personGenerator = {
 
     // краткое жизнеописание
     randomnHistory: function () {
-        let dateNow = new Date();
+        let dateNow = new Date(); 
         let ds = this.person.firstName + ' родил';
         // родилось        
         if (this.person.gender === this.GENDER_FEMALE) {
