@@ -1,0 +1,23 @@
+.person {
+    text-shadow: 1px 1px 2px gray;
+    font-size: 170%;
+}
+
+.foto-box {
+    display: flex;
+    align-items: center
+}
+.foto {
+    width: 100%;
+    border: 2px solid #3d060d;
+    box-shadow: 1px 1px 2px gray;
+    border-radius: 5px;
+    min-width: 150px;
+}
+.btn
+ {
+    margin: 2px 7px;
+    box-shadow: 1px 1px 2px gray;
+    border-radius: 5px;
+    width: -webkit-fill-available;
+}
